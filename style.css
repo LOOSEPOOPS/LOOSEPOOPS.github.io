@@ -41,6 +41,7 @@ nav a:link {
     text-transform: lowercase;
 }
 nav a:visited {
+    color: white;
     text-transform: lowercase;
 }
 nav a:hover {
@@ -58,6 +59,17 @@ article h1, article .title {
     text-transform: lowercase;
     padding: 0;
     margin: auto;
+}
+article h2 {
+    font-size: 1.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+article h2:before {
+    content: "[ "
+}
+article h2:after {
+    content: " ]"
 }
 article {
     border-bottom: 1px solid black;
