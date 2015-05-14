@@ -1,0 +1,6 @@
+@import url("../style.css");
+
+header h1 {
+    background-image: url("../img/makes.jpg");
+    background-position: 50% 50%;
+}
