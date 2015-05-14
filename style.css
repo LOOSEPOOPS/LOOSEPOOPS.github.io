@@ -90,6 +90,15 @@ li {
 img {
     display: block;
 }
+.adage {
+    background-image: url("img/stardust.png");
+    background-repeat: repeat;
+    color: #ff4;
+}
+.adage li {
+    list-style: circle url("img/bullet.png") inside;
+    margin: 0.5em;
+}
 .manifesto {
     font-family: "Comic Neue", "Comic Sans", Georgia, sans-serif;
     background-image: url("img/chruch.png");
