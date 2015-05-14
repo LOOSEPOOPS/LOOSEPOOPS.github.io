@@ -1,6 +1,39 @@
 @import url("../style.css");
-
+body {
+    background-image: url("../img/pattern_002.gif");
+    background-repeat: repeat;
+}
 header h1 {
     background-image: url("../img/makes.jpg");
     background-position: 50% 50%;
+}
+article {
+    background-image: url("img/subtle_white_feathers.png");
+}
+.future {
+    background-image: url("../img/waves.jpg");
+    background-repeat: repeat;
+    color: #ddd;
+}
+.future .lp {
+    color: #f66d8b;
+}
+.future a:link {
+    color: lightblue;
+}
+.future a:hover {
+    color: lightgreen;
+}
+.future a:visited {
+    color: #f1f;
+}
+.future a:active {
+    color: #f66d8b;
+}
+.date {
+    background-color: lightgrey;
+    color: #230;
+    display: block;
+    text-align: right;
+    padding: 2px;
 }
