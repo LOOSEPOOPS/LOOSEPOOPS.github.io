@@ -1,3 +1,4 @@
+@import url("fonts/stylesheet.css");
 body {
     font-size: 100%;
     line-height: 1.2em;
@@ -9,7 +10,7 @@ body {
 }
 header h1 {
     text-align: center;
-    padding: 5em;
+    padding: 25%;
     margin: 0;
     font-size: 3em;
     text-transform: uppercase;
@@ -17,8 +18,6 @@ header h1 {
     font-family: "Castellar", "Verdana", serif;
     background-image: url("img/header.jpg");
     background-position: 50% 50%;
-}
-header {
 }
 nav {
     margin: 0;
@@ -35,6 +34,9 @@ nav ul {
 nav li {
     padding: 1em;
     display: inline;
+}
+a {
+    text-decoration: none;
 }
 nav a:link {
     color: white;
@@ -77,6 +79,13 @@ article {
     max-width: 39em;
     margin: 0 auto 0 auto;
 }
+article::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 footer {
     max-width: 39em;
     font-size: 0.5em;
@@ -89,6 +98,7 @@ li {
 }
 img {
     display: block;
+    max-width: 100%;
 }
 .adage {
     background-image: url("img/stardust.png");
@@ -120,15 +130,29 @@ img {
 .floater {
     float: left;
     margin-right: 1em;
+    max-width: 25%;
 }
 .redacted {
-    font-family: "Redacted Script", "Redacted Regular", Webdings, Wingdings, Symbol, monospace;
+    font-family:
+        "Redacted Script",
+        "Redacted",
+        'redacted_scriptbold',
+        'Webdings',
+        'Wingdings',
+        'Symbol',
+        monospace;
 }
 .lp {
     color: #900725;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
-a {
-    text-decoration: none;
+.redacted .lp {
+    letter-spacing: normal;
+}
+.verse .line {
+    display: block;
+    margin: 0;
+    text-indent: -0.5em;
+    margin-left: 0.5em;
 }
