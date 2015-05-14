@@ -1,0 +1,20 @@
+@import url("../style.css");
+body {
+    background-image: url("../img/weave.png");
+    background-repeat: repeat;
+}
+header h1 {
+    background-image: url("../img/peeps.jpg");
+    background-position: 50% 50%;
+    color: white;
+}
+article {
+    background-image: url("img/subtle_white_feathers.png");
+}
+.date {
+    background-color: lightgrey;
+    color: #230;
+    display: block;
+    text-align: right;
+    padding: 2px;
+}

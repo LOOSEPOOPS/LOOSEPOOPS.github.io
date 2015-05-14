@@ -1,0 +1,36 @@
+@import url("../style.css");
+body {
+    background-image: url("../img/waves.jpg");
+    background-repeat: repeat;
+    color: #ddd;
+}
+header h1 {
+    background-image: url("../img/mails.jpg");
+    background-position: 50% 50%;
+    color: black;
+}
+article {
+    border-bottom: 1px solid #ddd;
+}
+.lp {
+    color: #f66d8b;
+}
+a:link {
+    color: lightblue;
+}
+a:hover {
+    color: lightgreen;
+}
+a:visited {
+    color: #f1f;
+}
+a:active {
+    color: #f66d8b;
+}
+.date {
+    background-color: lightgrey;
+    color: #230;
+    display: block;
+    text-align: right;
+    padding: 2px;
+}
