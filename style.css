@@ -1,0 +1,113 @@
+body {
+    font-size: 100%;
+    line-height: 1.2em;
+    max-width: 90%;
+    margin: auto;
+    background-image: url("img/subtle_white_feathers.png");
+    background-repeat: repeat;
+    font-family: "Linux Libertine O", "Georgia", "Verdana", serif;
+}
+header h1 {
+    text-align: center;
+    padding: 5em;
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-family: "Castellar", "Verdana", serif;
+    background-image: url("img/header.jpg");
+    background-position: 50% 50%;
+}
+header {
+}
+nav {
+    margin: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-family: "Courier Prime", "Courier New", monospace;
+}
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    padding: 1em;
+    display: inline;
+}
+nav a:link {
+    color: white;
+    text-transform: lowercase;
+}
+nav a:visited {
+    text-transform: lowercase;
+}
+nav a:hover {
+    text-transform: uppercase;
+}
+nav a:active {
+    color: red;
+    text-transform: uppercase;
+    height: 100%;
+}
+article h1, article .title {
+    font-style: italic;
+    font-size: 1.4em;
+    text-align: center;
+    text-transform: lowercase;
+    padding: 0;
+    margin: auto;
+}
+article {
+    border-bottom: 1px solid black;
+    padding: 1em;
+    max-width: 39em;
+    margin: 0 auto 0 auto;
+}
+footer {
+    max-width: 39em;
+    font-size: 0.5em;
+    margin: auto;
+}
+ol, ul { margin-bottom: 0; }
+li {
+    list-style: none;
+    text-indent: 0.5em;
+}
+img {
+    display: block;
+}
+.manifesto {
+    font-family: "Comic Neue", "Comic Sans", Georgia, sans-serif;
+    background-image: url("img/chruch.png");
+    background-repeat: repeat;
+}
+.whisper {
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 0.8em;
+    color: #444;
+    display: inline;
+}
+.whisper::before {
+    content: "( "
+}
+.whisper::after {
+    content: " )"
+}
+.floater {
+    float: left;
+    margin-right: 1em;
+}
+.redacted {
+    font-family: "Redacted Script", "Redacted Regular", Webdings, Wingdings, Symbol, monospace;
+}
+.lp {
+    color: #900725;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+a {
+    text-decoration: none;
+}
