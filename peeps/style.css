@@ -9,7 +9,25 @@ header h1 {
     color: white;
 }
 article {
-    background-image: url("img/subtle_white_feathers.png");
+    background-color: brown;
+}
+ul {
+    font-family: "Courier Prime", "Courier New", "Courier", monospace;
+    text-align: center;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+    text-transform: uppercase;
+}
+a:active {
+    color: white;
+    text-transform: uppercase;
 }
 .date {
     background-color: lightgrey;
