@@ -20,6 +20,7 @@ header h1 {
     background-position: 50% 50%;
     position: relative;
     height: 0;
+    max-width: 50%;
 }
 nav {
     margin: 0;
@@ -80,7 +81,7 @@ article {
     border-bottom: 1px solid black;
     padding: 1em;
     max-width: 39em;
-    width: 40%;
+    width: 90%;
     margin: auto;
 }
 article::after {
@@ -120,6 +121,9 @@ strong {
 .adage li {
     list-style: circle url("img/bullet.png") inside;
     margin: 0.5em;
+}
+.adage a:visited {
+    color: #ff4;
 }
 .manifesto {
     font-family: "Comic Neue", "Comic Sans", Georgia, sans-serif;
