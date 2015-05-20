@@ -34,3 +34,31 @@ a:active {
     text-align: right;
     padding: 2px;
 }
+.explanation {
+    margin: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-family: "Courier Prime", "Courier New", monospace;
+    text-align: center;
+}
+.explanation a:link {
+    color: white;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+.explanation a:visited {
+    color: white;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+.explanation a:hover {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.explanation a:active {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    height: 100%;
+}
